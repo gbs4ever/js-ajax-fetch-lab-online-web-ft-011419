@@ -57,5 +57,6 @@ headers: {
   })
   .then(res => res.json())
   .then(res => res.console.log(res))
-  //document.getElementById('issues').innerHTML =
+  //Append them to the issues div
+  //this would be to append      document.getElementById('issues').innerHTML =
 }
